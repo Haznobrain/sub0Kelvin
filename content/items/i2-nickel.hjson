@@ -1,0 +1,8 @@
+color: 92dbd9
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 0.15
+hardness: 2
+hiddenOnPlanets: [erekir, serpulo]

@@ -10,7 +10,7 @@ orbitSpacing: 3
 radius: 1.4
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 0.02
+atmosphereRadIn: 0.04
 atmosphereRadOut: 0.3
 clipSize: 8500
 accessible: true

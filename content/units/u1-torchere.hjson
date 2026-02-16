@@ -4,15 +4,12 @@ speed: 3
 buildSpeed: 2
 hitSize: 24
 mineWalls: false
-engineOffset: 15
+engineOffset: 12
 envDisabled: 0
 mineSpeed: 5
 mineTier: 4
 engineSize: 3
-trailScl: 2
-trailLength: 4
 buildBeamOffset: 20
-trailColor: f59331
 controller: BuilderAI
 defaultController: BuilderAI
 health: 120
@@ -25,3 +22,4 @@ crashDamageMultiplier: 0
 payloadCapacity: 256
 hittable: false
 targetable: false
+outlineColor: 517384

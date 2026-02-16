@@ -42,7 +42,7 @@ mesh: [
   octaves: 4.25
   persistence: 0.2
   divisions: 5
-  scale: 14
+  scale: 50
   mag: 1.05
   }
 ]

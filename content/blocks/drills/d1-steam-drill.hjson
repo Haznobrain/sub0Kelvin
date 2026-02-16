@@ -1,6 +1,7 @@
 type: Drill
 tier: 3
 drillTime: 180
+size: 2
 consumes: {
   liquid: {
     liquid: l1-steam
@@ -28,6 +29,7 @@ drawMineItem: false
 
 drawer: {
   type: DrawMulti
+  iconOverride: "-icon"
   drawers: [
 {
 type: DrawRegion

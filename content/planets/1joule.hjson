@@ -54,7 +54,7 @@ mesh: [
   cthresh: 0.1
   seed: 356
   planet: 1joule
-  radius: 0.575
+  radius: 0.6
   octaves: 4.25
   persistence: 0.2
   divisions: 6

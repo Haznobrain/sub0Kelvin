@@ -35,10 +35,9 @@ mesh: [
     type: SunMesh
     divisions: 6
     persistence: 0.1
-    colors:
-    [
+    colors: [
     404f73
-    000000
+    0d1a38
     ]
     octaves: 6
     persistence: 0.7

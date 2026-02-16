@@ -1,0 +1,37 @@
+type: AttributeCrafter
+baseEfficiency: 0
+attribute: steam
+size: 5
+outputLiquid: l1-steam/1
+dumpExtraLiquid: false
+hasItems: false
+drawer: {
+  type: DrawMulti
+  iconOverride: "-icon"
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+      }
+{
+    type: DrawLiquidTile
+    drawLiquid: l1-steam
+    padding: 1
+      }
+{
+    type: DrawRegion
+      }
+]
+}
+liquidCapacity: 240
+requirements: [
+  nickel/90
+  copper/90
+  ice/90
+  ]
+researchCost: [
+  nickel/9
+  copper/9
+  ice/9
+    ]
+explosivenessScale: 2

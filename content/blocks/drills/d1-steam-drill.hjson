@@ -26,7 +26,7 @@ research: {
       }
 drawSpinSprite: false
 drawMineItem: false
-
+drawRim: false
 drawer: {
   type: DrawMulti
   iconOverride: "-icon"
@@ -34,7 +34,7 @@ drawer: {
 {
 type: DrawRegion
 spinSprite: true
-name: "sub0Kelvin-nickel-cog"
+region: "sub0Kelvin-nickel-cog"
 spinSprite: true
 x: -2
 y: 2
@@ -43,7 +43,7 @@ rotateSpeed: 0.5
     {
 type: DrawRegion
 spinSprite: true
-name: "sub0Kelvin-nickel-cog"
+region: "sub0Kelvin-nickel-cog"
 spinSprite: true
 x: 2
 y: -2

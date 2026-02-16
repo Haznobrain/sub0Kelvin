@@ -8,8 +8,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 1
 orbitSpacing: 2
-radius: 0.2
-#radius: 0.775
+radius: 0.79
 minZoom: 1
 maxZoom: 10
 drawOrbit: true
@@ -18,7 +17,7 @@ atmosphereRadOut: 0.4
 clipSize: 8500
 accessible: true
 updateLighting: false
-sectorSeed: 69420
+sectorSeed: 1225
 bloom: true
 visible: true
 atmosphereColor: 111e3d1a

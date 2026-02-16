@@ -1,0 +1,54 @@
+type: Drill
+tier: 3
+drillTime: 180
+consumes: {
+  liquid: {
+    liquid: l1-steam
+    amount: 0.166666666666666666666666666666666666666666666666
+    optional: false
+    booster: false
+      }
+}
+requirements: [
+    i1-cut-ice/10
+    i2-nickel/30
+    i3-copper/15
+      ]
+category: production
+researchCost: [
+    i1-cut-ice/1
+    i2-nickel/1
+    i3-copper/1
+      ]
+research: {
+    parent: "e1-core-pyre"
+      }
+drawSpinSprite: false
+drawMineItem: false
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+spinSprite: true
+name: "sub0Kelvin-nickel-cog"
+spinSprite: true
+x: -2
+y: 2
+rotateSpeed: 0.5
+}
+    {
+type: DrawRegion
+spinSprite: true
+name: "sub0Kelvin-nickel-cog"
+spinSprite: true
+x: 2
+y: -2
+rotateSpeed: -0.5
+}
+{
+type: DrawRegion
+  }
+]
+}

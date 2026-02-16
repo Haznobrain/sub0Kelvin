@@ -17,7 +17,7 @@ clipSize: 8500
 accessible: true
 updateLighting: false
 sectorSeed: 69420
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: 111e3d1a
 iconColor: 0d1a38

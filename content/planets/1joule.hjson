@@ -1,1 +1,95 @@
-
+localizedName: I am god's strongest puppygirl soldier
+description: hawk tuah
+orbitRadius: 145
+sectorSize: 3.5
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 1
+orbitSpacing: 2
+radius: 0.8
+minZoom: 1
+maxZoom: 2
+drawOrbit: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.4
+clipSize: 8500
+accessible: true
+updateLighting: false
+sectorSeed: 1225
+bloom: true
+visible: true
+atmosphereColor: 111e3d1a
+iconColor: 0d1a38
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-bastion
+parent: sun
+solarSystem: sun
+mesh: [
+  //mounds
+  {
+  type: NoiseMesh
+  color1: 859acc
+  color2: 7790c9
+  cthresh: 0.1
+  seed: 42
+  planet: 1joule
+  radius: 0.5
+  octaves: 4.25
+  persistence: 0.2
+  divisions: 6
+  scale: 2
+  mag: 4.75
+  }
+  //nickel
+  {
+  type: NoiseMesh
+  color1: 6a8aa6
+  color2: 536b80
+  cthresh: 0.1
+  seed: 356
+  planet: 1joule
+  radius: 0.655
+  octaves: 4.25
+  persistence: 0.575
+  divisions: 6
+  scale: 3.5
+  mag: 2.1
+  }
+  //baseplate
+  {
+  type: NoiseMesh
+  color1: 859acc
+  color2: 7790c9
+  cper: 100
+  seed: 8
+  planet: 1joule
+  radius: 0.77
+  octaves: 4.25
+  persistence: 1
+  divisions: 5
+  scale: 2
+  mag: 1
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+alwaysUnlocked: true

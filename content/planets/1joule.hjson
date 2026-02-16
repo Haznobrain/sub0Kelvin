@@ -40,11 +40,6 @@ mesh: [
     404f7300
     0d1a3800
     ]
-    octaves: 6
-    persistence: 0.7
-    scl: 0.6
-    mag: 5
-    pow: 5
   }
   ]
 alwaysUnlocked: true

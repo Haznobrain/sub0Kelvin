@@ -10,7 +10,7 @@ startSector: 1
 orbitSpacing: 2
 radius: 0.8
 minZoom: 1
-maxZoom: 10
+maxZoom: 2
 drawOrbit: true
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.4
@@ -54,12 +54,12 @@ mesh: [
   cthresh: 0.1
   seed: 456
   planet: 1joule
-  radius: 0.55
+  radius: 0.555
   octaves: 4.25
-  persistence: 0.3
+  persistence: 0.425
   divisions: 6
-  scale: 2
-  mag: 3
+  scale: 2.1
+  mag: 3.05
   }
   //baseplate
   {

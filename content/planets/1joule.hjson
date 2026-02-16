@@ -11,6 +11,7 @@ orbitSpacing: 2
 radius: 0.2
 #radius: 0.775
 minZoom: 1
+maxZoom: 10
 drawOrbit: true
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.4

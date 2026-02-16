@@ -39,7 +39,7 @@ mesh: [
   coct: 2
   cscl: 3
   cper: 2
-  cthresh: 0.3
+  cthresh: 3
   divisions: 6
   octaves: 9
   }

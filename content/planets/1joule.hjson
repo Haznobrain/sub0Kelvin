@@ -32,7 +32,6 @@ defaultCore: core-bastion
 parent: sun
 solarSystem: sun
 mesh: [
-  //baseplate
   {
   type: NoiseMesh
   color1: 54658c1a
@@ -40,7 +39,7 @@ mesh: [
   cthresh: 0.1
   seed: 4
   planet: 1joule
-  radius: 0.6
+  radius: 0.4
   octaves: 4.25
   persistence: 0.2
   divisions: 6
@@ -55,7 +54,7 @@ mesh: [
   cthresh: 0.1
   seed: 7
   planet: 1joule
-  radius: 0.75
+  radius: 0.775
   octaves: 4.25
   persistence: 1
   divisions: 5

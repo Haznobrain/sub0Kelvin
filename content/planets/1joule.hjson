@@ -52,7 +52,7 @@ mesh: [
   color: 859acc00
   seed: 8
   planet: 1joule
-  radius: 0.725
+  radius: 0.75
   octaves: 4.25
   persistence: 1
   divisions: 5

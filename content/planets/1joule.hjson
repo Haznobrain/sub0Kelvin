@@ -54,11 +54,11 @@ mesh: [
   cthresh: 0.1
   seed: 356
   planet: 1joule
-  radius: 0.675
+  radius: 0.66
   octaves: 4.25
   persistence: 0.5
   divisions: 6
-  scale: 3
+  scale: 3.5
   mag: 2.1
   }
   //baseplate

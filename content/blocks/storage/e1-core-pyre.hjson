@@ -13,8 +13,8 @@ requirements: [
   ]
 research: {
   root: true
-  planet: 1Joule
-  name: 1Joule
+  planet: 1joule
+  name: 1joule
   requiresUnlock: true
     }
 alwaysUnlocked: true

@@ -35,7 +35,7 @@ mesh: [
   {
   type: NoiseMesh
   color1: 859acc
-  color2: 8399cc
+  color2: 7790c9
   cthresh: 0.1
   seed: 42
   planet: 1joule
@@ -65,7 +65,7 @@ mesh: [
   {
   type: NoiseMesh
   color1: 859acc
-  color2: 8399cc
+  color2: 7790c9
   cper: 100
   seed: 8
   planet: 1joule

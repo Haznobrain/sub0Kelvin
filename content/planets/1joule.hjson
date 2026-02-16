@@ -32,21 +32,19 @@ solarSystem: sun
 orbitTime: 300
 mesh: [
   {
-  type: SunMesh
-   {
-      type: SunMesh
-      divisions: 6
-      radius: 0.75
-      colors:
-      [
-      ffffff
-      000000
-      ]
-      octaves: 6
-      persistence: 0.7
-      scl: 0.6
-      mag: 5
-      pow: 5
-    }
+    type: SunMesh
+    divisions: 6
+    radius: 0.75
+    colors:
+    [
+    ffffff
+    000000
+    ]
+    octaves: 6
+    persistence: 0.7
+    scl: 0.6
+    mag: 5
+    pow: 5
+  }
   ]
 alwaysUnlocked: true

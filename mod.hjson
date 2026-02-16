@@ -1,0 +1,19 @@
+name: "sub0Kelvin"
+displayName: "sub0Kelvin"
+subtitle: "now with 100% frozener farlands!"
+description: "Far, far away from serpulo's sun, we have located a severe anomaly.
+
+    In the absence of a divine body to regulate our world, a thermal anomaly has popped up. 
+    A single planet in the outskirts of its system. Initial scans expected a total of 1 joule of thermal energy in the entire object.
+
+    Later scans revealed that while the surface was still below what should be absolute 0, it possesses a warm and ressource rich core.
+
+    Land on it.
+    Survive the frost.
+    Exploit the core."
+
+author: "Hell Inc & Haznobrain"
+version: 2212.08.06
+minGameVersion: 155
+hidden: false
+repo: haznobrain/sub0Kelvin

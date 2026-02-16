@@ -1,0 +1,7 @@
+type: Floor
+dragMultiplier: 0.5
+name: Packed Ice
+variants: 3
+attributes: {
+  steam: 0.04
+    }

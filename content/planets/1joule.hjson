@@ -43,7 +43,7 @@ mesh: [
   radius: 0.75
   octaves: 4.25
   persistence: 0.004
-  divisions: 5
+  divisions: 6
   scale: 50
   mag: 5
   }

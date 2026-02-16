@@ -1,0 +1,8 @@
+type: Floor
+dragMultiplier: 0.5
+itemDrop: i2-nickel
+name: Nickel Ice
+variants: 3
+attributes: {
+  steam: 0.04
+    }

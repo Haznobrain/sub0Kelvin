@@ -7,7 +7,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 69
 orbitSpacing: 3
-radius: 0.76
+radius: 1
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0.02
@@ -34,7 +34,6 @@ mesh: [
   {
     type: SunMesh
     divisions: 6
-    radius: 0.2
     colors:
     [
     404f73

@@ -17,7 +17,7 @@ clipSize: 8500
 accessible: true
 updateLighting: false
 sectorSeed: 69420
-bloom: true
+bloom: false
 visible: true
 atmosphereColor: 111e3d1a
 iconColor: 0d1a38
@@ -35,6 +35,7 @@ mesh: [
   type: NoiseMesh
   color1: 111e3d
   color2: 0d1a38
+  cthresh: 0.1
   seed: 0
   planet: 1joule
   radius: 0.95

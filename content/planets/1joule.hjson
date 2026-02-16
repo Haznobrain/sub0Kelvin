@@ -1,1 +1,52 @@
-
+localizedName: I am god's stongest puppygirl soldier
+orbitRadius: 140
+sectorSize: 3
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 69
+orbitSpacing: 3
+radius: 0.99
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.4
+clipSize: 8500
+accessible: true
+updateLighting: false
+sectorSeed: 67
+bloom: false
+visible: true
+atmosphereColor: 216f961a
+iconColor: 5b76fc
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+#placeholder
+defaultCore: core-shard 
+parent: sun
+solarSystem: sun
+orbitTime: 300
+mesh: [
+  {
+  type: SunMesh
+   {
+      type: SunMesh
+      divisions: 6
+      radius: 0.75
+      colors:
+      [
+      ffffff
+      000000
+      ]
+      octaves: 6
+      persistence: 0.7
+      scl: 0.6
+      mag: 5
+      pow: 5
+    }
+  ]
+alwaysUnlocked: true

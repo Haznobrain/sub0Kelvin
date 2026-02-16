@@ -10,8 +10,8 @@ orbitSpacing: 3
 radius: 0.76
 minZoom: 0.01
 drawOrbit: true
-atmosphereRadIn: 0.04
-atmosphereRadOut: 0.3
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.4
 clipSize: 8500
 accessible: true
 updateLighting: false
@@ -38,6 +38,8 @@ mesh: [
   color2: 111e3d
   coct: 2
   cscl: 0.6
+  cper: 2
+  cthresh: 0.3
   divisions: 6
   octaves: 9
   }

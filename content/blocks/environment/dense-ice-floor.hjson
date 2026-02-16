@@ -1,0 +1,8 @@
+type: Floor
+dragMultiplier: 0.7
+itemDrop: i1-cut-ice
+name: Dense Ice
+variants: 3
+attributes: {
+  steam: 0.08
+    }

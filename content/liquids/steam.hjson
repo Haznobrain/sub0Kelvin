@@ -1,0 +1,11 @@
+type: Liquid
+color: ffffff
+lightColor: ffffffcc
+temperature: 0.7
+viscosity: 0.1
+heatCapacity: 0
+explosiveness: 0.7
+coolant: false
+gas: true
+gasColor: ffffff
+incinerable: false

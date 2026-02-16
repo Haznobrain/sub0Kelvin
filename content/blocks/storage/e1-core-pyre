@@ -1,0 +1,20 @@
+type: CoreBlock
+squareSprite: true
+health: 800
+armor: 2
+itemCapacity: 10000
+size: 5
+category: effect
+unitType: u1-torchere
+unitCapModifier: 32
+requirements: [
+  i2-nickel/1200
+  i4-brass/600
+  ]
+research: {
+  root: true
+  planet: 1Joule
+  name: 1Joule
+  requiresUnlock: true
+    }
+alwaysUnlocked: true

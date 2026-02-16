@@ -7,8 +7,8 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 1
 orbitSpacing: 3
-radius: 1.45
-minZoom: 0.75
+radius: 1.4
+minZoom: 0.2
 drawOrbit: true
 atmosphereRadIn: 0.04
 atmosphereRadOut: 0.3

@@ -36,7 +36,7 @@ mesh: [
   radius: 0.73
   color1: 0d1a38
   color2: 111e3d
-  coct: 2
+  coct: 0.2
   cscl: 3
   cper: 2
   cthresh: 3

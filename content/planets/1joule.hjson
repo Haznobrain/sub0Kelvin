@@ -36,6 +36,8 @@ mesh: [
   radius: 0.73
   color1: 0d1a38
   color2: 111e3d
+  coct: 2
+  cscl: 0.6
   divisions: 6
   octaves: 9
   }

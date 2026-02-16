@@ -42,7 +42,7 @@ mesh: [
   planet: 1joule
   radius: 0.75
   octaves: 4.25
-  persistence: 0.2
+  persistence: 0.004
   divisions: 5
   scale: 50
   mag: 1.05

@@ -6,6 +6,12 @@ outputLiquid: l1-steam/1
 dumpExtraLiquid: false
 hasItems: false
 maxBoost: 2
+consumes: {
+  liquid: {
+    liquid: l1-steam
+    amount: 0
+    }
+}
 drawer: {
   type: DrawMulti
   drawers: [

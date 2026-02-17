@@ -2,7 +2,7 @@ type: PowerTurret
 reload: 120
 consumes: {
   liquid: {
-    liquid: steam
+    liquid: l1-steam
     amount: 0.333333333333333333333333333333333333333333333333333333333333333333333333333
     optional: false
     booster: false

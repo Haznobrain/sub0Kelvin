@@ -1,0 +1,8 @@
+type: DuctBridge
+speed: 4
+range: 3
+health: 90
+requirements: [
+  i4-brass/10
+    ]
+research: d2-brass-router

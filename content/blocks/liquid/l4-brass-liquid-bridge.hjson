@@ -1,0 +1,11 @@
+type: LiquidBridge
+liquidCapacity:  20
+range: 3
+health: 80
+requirements: [
+    i4-brass/10
+      ]
+researchCost: [
+    i4-brass/100
+    ]
+research: l3-brass-liquid-junction

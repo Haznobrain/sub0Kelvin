@@ -1,0 +1,8 @@
+speed: 4
+health: 80
+invert: true
+requirements: [
+    i4-brass/5
+    i5-red-beryl/2
+    ]
+research: d3-brass-overflow-duct

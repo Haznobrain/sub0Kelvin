@@ -8,5 +8,6 @@ researchCost:[
     i2-nickel/1
     i1-cut-ice/1
     ]
+bridgeReplacement: d5-brass-bridge
 research: e1-core-pyre
 health: 40

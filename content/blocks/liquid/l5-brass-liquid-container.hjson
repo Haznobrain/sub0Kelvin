@@ -1,0 +1,10 @@
+type: LiquidRouter
+size: 2
+liquidCapacity: 150
+health: 250
+category: liquid
+requirements: [
+    i4-brass/40
+    i1-cut-ice/10
+      ]
+research: l3-brass-liquid-router

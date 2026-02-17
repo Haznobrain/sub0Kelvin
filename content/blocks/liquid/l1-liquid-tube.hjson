@@ -1,0 +1,14 @@
+type: Conduit
+timerFlow: 1
+leaks: false
+health: 40
+liquidCapacity: 15
+requirements: [
+    i2-nickel/1
+    i1-cut-ice/2
+    ]
+researchCost: [
+    i2-nickel/1
+    i1-cut-ice/1
+      ]
+research: e1-core-pyre

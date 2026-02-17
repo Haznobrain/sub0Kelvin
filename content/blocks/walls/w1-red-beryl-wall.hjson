@@ -1,0 +1,12 @@
+type: Wall
+health: 400
+size: 1
+absorbLasers: true
+insulated: true
+requirements: [
+  i5-red-beryl/6
+  ]
+researchCost: [
+    i5-red-beryl/20
+  ]
+research: e1-core-pyre

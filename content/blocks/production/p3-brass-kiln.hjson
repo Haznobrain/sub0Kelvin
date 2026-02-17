@@ -1,0 +1,45 @@
+type: GenericCrafter
+outputItem: i4-brass/2
+craftTime: 120
+consumes: {
+  liquid: {
+    liquid: l1-steam
+    amount: 0.5
+      }
+  items: [
+      i2-nickel/1
+      i3-copper/4
+      ]
+size: 2
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+  type: DrawCrucibleFlame
+  flameRadiusScl: 6
+  particleRad: 4
+  rotateScl: 10
+  particles: 20
+    }
+{
+  type: DrawRegion
+    }
+]
+}
+category: crafting
+health: 200
+requirements: [
+  i2-nickel/100
+  i3-copper/20
+  i5-red-beryl/10
+  ]
+researchCost: [
+  i2-nickel/100
+  i3-copper/20
+  i5-red-beryl/10
+  ]
+research: p1-solar-lens-panel

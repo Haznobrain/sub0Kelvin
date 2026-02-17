@@ -57,11 +57,11 @@ shootType: {
 
 requirements: [
     i2-nickel/20
-    i5-ruby/15
+    i5-red-beryl/15
     ]
 researchCost:[
     i2-nickel/20
-    i5-ruby/15
+    i5-red-beryl/15
     ]
 research: e1-core-pyre
 category: crafting

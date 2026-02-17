@@ -35,3 +35,6 @@ researchCost: [
   ice/9
     ]
 explosivenessScale: 2
+research: {
+  parent: e1-core-pyre
+    }

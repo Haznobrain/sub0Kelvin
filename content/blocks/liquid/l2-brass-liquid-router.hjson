@@ -1,0 +1,12 @@
+type: LiquidRouter
+health: 80
+liquidCapacity: 15
+research: l1-liquid-tube
+requirements: [
+    i4-brass/5
+    i1-cut-ice/1
+      ]
+researchCost: [
+    i4-brass/5
+    i1-cut-ice/1
+      ]

@@ -10,6 +10,7 @@ consumes: {
       i2-nickel/1
       i3-copper/4
       ]
+}
 size: 2
 drawer: {
   type: DrawMulti

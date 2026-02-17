@@ -24,14 +24,14 @@ drawer: {
 }
 liquidCapacity: 240
 requirements: [
-  nickel/90
-  copper/90
-  ice/90
+  i2-nickel/90
+  i3-copper/90
+  i1-cut-ice/90
   ]
 researchCost: [
-  nickel/9
-  copper/9
-  ice/9
+  i2-nickel/9
+  i3-copper/9
+  i1-cut-ice/9
     ]
 explosivenessScale: 2
 research: {

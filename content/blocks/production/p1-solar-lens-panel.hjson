@@ -5,6 +5,7 @@ size: 5
 outputLiquid: l1-steam/1
 dumpExtraLiquid: false
 hasItems: false
+maxBoost: 2
 drawer: {
   type: DrawMulti
   drawers: [
@@ -37,3 +38,4 @@ explosivenessScale: 2
 research: {
   parent: e1-core-pyre
     }
+category: crafting

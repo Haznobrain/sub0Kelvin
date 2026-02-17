@@ -6,3 +6,4 @@ charge: 0
 cost: 0.2
 hardness: 3
 hiddenOnPlanets: [erekir, serpulo]
+research: i3-copper

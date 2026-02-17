@@ -1,0 +1,11 @@
+type: Duct
+speed: 4
+requirements: [
+    i2-nickel/1
+    i1-cut-ice/1
+      ]
+researchCost:[
+    i2-nickel/1
+    i1-cut-ice/1
+    ]
+research: e1-core-pyre

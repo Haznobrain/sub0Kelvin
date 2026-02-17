@@ -11,6 +11,8 @@ alwaysShooting: true
 size: 2
 hasLiquids: true
 liquidCapacity: 25
+reload: 300
+shootSound: none
 drawer: {
   type: DrawMulti
   drawers: [

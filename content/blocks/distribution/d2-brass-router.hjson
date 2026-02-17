@@ -1,0 +1,10 @@
+type: DuctRouter
+speed: 4
+research: d1-coldproof-duct
+researchCost: [
+    brass/10
+    ]
+requirements: [
+    brass/2
+      ]
+health: 80

@@ -7,7 +7,6 @@ dumpExtraLiquid: false
 hasItems: false
 drawer: {
   type: DrawMulti
-  iconOverride: "-icon"
   drawers: [
     {
     type: DrawRegion

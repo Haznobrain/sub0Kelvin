@@ -25,13 +25,14 @@ shootType: {
   backColor: ffffffbb
   trailInterval: 4
   trailEffect: artilleryTrail
-  shrinkX: 2
+  shrinkX: -1
   damage: 30
   splashDamage: 12
   splashDamageRadius: 16
   hitEffect: explosion
   despawnEffect: none
   hitSound: explosionDull
+  trailColor: ffffff
     }
 
 category: turret

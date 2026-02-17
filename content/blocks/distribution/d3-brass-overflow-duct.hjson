@@ -1,7 +1,7 @@
 speed: 4
 health: 80
 requirements: [
-    brass/5
-    copper/2
+    i4-brass/5
+    i3-copper/2
     ]
 research: d2-brass-router

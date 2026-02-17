@@ -1,0 +1,40 @@
+type: ItemTurret
+size: 2
+reload: 60
+shoot: {
+  type: ShootSine
+  shots: 6
+  scl: 1
+  mag: 10
+  shotDelay: 5
+    }
+consumeAmmoOnce: false
+maxAmmo: 60
+range: 120
+rotateSpeed: 10
+recoil: 1
+shootSound: shootStell
+ammoTypes: {
+  i1-cut-ice: {
+    type: BasicBulletType
+    speed: 4
+    lifetime: 30
+    frontColor: ffffff
+    backColor: d4f1f1
+    damage: 4
+    hitEffect: hitBulletColor
+    hitColor: d4f1f1
+    despawnEffect: hitBulletColor
+    ammoMultiplier: 6
+      }
+}
+
+requirements: [
+    i1-cut-ice/10
+    i2-nickel/10
+    ]
+researchCost: [
+    i1-cut-ice/10
+    i2-nickel/10
+    ]
+research: e1-core-pyre

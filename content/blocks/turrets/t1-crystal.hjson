@@ -8,6 +8,7 @@ shoot: {
   mag: 10
   shotDelay: 5
     }
+category: turret
 consumeAmmoOnce: false
 maxAmmo: 60
 range: 120

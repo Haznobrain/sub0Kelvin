@@ -26,8 +26,8 @@ hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: false
-defaultCore: core-bastion
+prebuildBase: true
+defaultCore: e1-core-pyre
 parent: sun
 solarSystem: sun
 mesh: [

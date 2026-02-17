@@ -1,0 +1,12 @@
+type: Wall
+health: 1600
+size: 2
+absorbLasers: true
+insulated: true
+requirements: [
+  i5-red-beryl/24
+  ]
+researchCost: [
+  i5-red-beryl/600
+  ]
+research: w1-red-beryl-wall

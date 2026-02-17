@@ -13,3 +13,5 @@ researchCost: [
       ]
 research: e1-core-pyre
 category: liquid
+junctionReplacement: l3-brass-liquid-junction
+bridgeReplacement: l4-brass-liquid-bridge

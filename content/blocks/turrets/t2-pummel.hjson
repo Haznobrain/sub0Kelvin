@@ -33,6 +33,9 @@ shootType: {
   despawnEffect: none
   hitSound: explosionDull
   trailColor: ffffff
+  speed: 4
+  lifetime: 20
+  knockback: 2
     }
 
 category: turret

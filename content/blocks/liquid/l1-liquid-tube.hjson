@@ -1,5 +1,5 @@
 type: Conduit
-timerFlow: 1
+timerFlow: 0.25
 leaks: false
 health: 40
 liquidCapacity: 15

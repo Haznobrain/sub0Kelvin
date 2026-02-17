@@ -1,0 +1,67 @@
+type: PowerTurret
+consumes: {
+  liquid: {
+    liquid: l1-steam
+    amount: 0.0416666666666666666
+    booster: false
+    optional: false
+      }
+}
+alwaysShooting: true
+size: 2
+hasLiquids: true
+liquidCapacity: 25
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawLiquidTile
+drawLiquid: l1-steam
+padding: 1
+  }
+{
+type: DrawRegion
+  }
+{
+  type: DrawGlowRegion
+  color: ff0000
+    }
+]
+}
+range: 40
+shootY: 0
+shootType: {
+  type: BulletType
+  lifetime: 0
+  instantDisappear: true
+  speed: 0
+  damage: 0
+  splashDamage: 0
+  splashDamageRadius: 40
+  splashDamagePierce: true
+  hitEffect: none
+  despawnEffect: none
+  shootEffect: none
+  smokeEffect: none
+  collidesTeam: true
+  hittable: false
+  healAmount: 2
+  healSound: none
+  healColor: 00000000
+  healEffect: none
+    }
+
+requirements: [
+    i2-nickel/20
+    i5-ruby/15
+    ]
+researchCost:[
+    i2-nickel/20
+    i5-ruby/15
+    ]
+research: e1-core-pyre
+category: crafting

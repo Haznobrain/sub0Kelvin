@@ -1,0 +1,46 @@
+type: PowerTurret
+reload: 120
+consumes: {
+  liquid: {
+    liquid: steam
+    amount: 0.333333333333333333333333333333333333333333333333333333333333333333333333333
+    optional: false
+    booster: false
+      }
+}
+range: 80
+shootSound: blockExplode1Alt
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+size: 2
+heatColor: ff0000
+hasLiquids: true
+rotateSpeed: 5
+shootY: 10
+shootType: {
+  type: BasicBulletType
+  height: 12
+  width: 12
+  frontColor: ffffffcc
+  backColor: ffffffbb
+  trailInterval: 4
+  trailEffect: artilleryTrail
+  shrinkX: 2
+  damage: 30
+  splashDamage: 12
+  splashDamageRadius: 16
+  hitEffect: explosionArtillery
+  despawnEffect: none
+  hitSound: explosionDull
+    }
+
+category: turret
+requirements: [
+    i2-nickel/60
+    i3-copper/30
+  ]
+research: t1-crystal
+researchCost: [
+    i2-nickel/200
+    i3-copper/300
+      ]

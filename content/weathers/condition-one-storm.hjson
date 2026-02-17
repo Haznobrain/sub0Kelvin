@@ -1,0 +1,16 @@
+type: ParticleWeather
+color: eeeeff
+sizeMin: 1
+sizeMax: 8
+density: 1800
+minAlpha: 0.2
+baseSpeed: 12
+drawNoise: true
+noiseLayers: 2
+ySpeed: -4
+xSpeed: 1
+sound: windhowl
+soundVolMin: 0.1
+soundVolOscMag: 0.2
+soundVolOsScl: 60
+name: "Condition One Storm"

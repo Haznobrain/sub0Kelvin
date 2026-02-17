@@ -2,6 +2,7 @@ type: Drill
 tier: 3
 drillTime: 180
 size: 2
+liquidBoostIntensity: 1
 consumes: {
   liquid: {
     liquid: l1-steam

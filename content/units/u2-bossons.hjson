@@ -1,0 +1,69 @@
+type: tank
+flying: false
+hovering: true
+shadowElevation: 0.2 
+drag: 0.05
+accel: 0.08
+speed: 2
+outlineColor: 517384
+engineOffset: 7
+useEngineElevation: false
+engineSize: 2
+abilities: [
+  {
+  type: MoveEffectAbility
+  x: 2
+  y: -6
+  color: d3b0ff
+  effect: missileTrailShort
+  interval: 12
+  effectParam: 6
+    }
+  {
+  type: MoveEffectAbility
+  x: -2
+  y: -6
+  color: d3b0ff
+  effect: missileTrailShort
+  interval: 12
+  effectParam: 6
+    }
+]
+parts: [
+  {
+layerOffset: -0.001
+type: HoverPart
+x: 6
+y: 4
+color: d3b0ff
+mirror: true
+radius: 2
+phase: 120
+stroke: 0.5
+sides: 4
+circles: 3
+  }
+  {
+type: HoverPart
+layerOffset: -0.001
+x: 6
+y: -5.5
+color: d3b0ff
+mirror: true
+radius: 2
+phase: 120
+stroke: 0.5
+sides: 4
+circles: 3
+  }
+]
+
+weapons: [
+{
+  name: ice-gun-1
+  x: 4
+  y: 0
+  alternate: false
+  mirror: true
+  reload: 10
+  shootSound:

@@ -10,7 +10,7 @@ engineOffset: 10
 useEngineElevation: false
 engineSize: 3
 hitSize: 20
-health: 120
+health: 450
 abilities: [
   {
   type: MoveEffectAbility
@@ -83,6 +83,7 @@ weapons: [
   reload: 10
   rotate: true
   rotateSpeed: 4
+  shootEffect: shootSmallColor
   bullet: {
     type: BasicBulletType
     trailLength: 3
@@ -96,6 +97,8 @@ weapons: [
     damage: 6
     speed: 2
     lifetime: 60
+    hitEffect: hitBulletColor
+    hitColor: b5d4ea
     }
 }
   {
@@ -108,6 +111,7 @@ weapons: [
   rotate: true
   rotateSpeed: 4
   shootSound: shootDiffuse
+  shootEffect: colorSparkBig
   bullet: {
     type: BasicBulletType
     trailLength:6
@@ -118,16 +122,39 @@ weapons: [
     shrinkX: 0.2
     frontColor: d4f1f1
     backColor: b5d4ea
+    hitColor: b5d4ea
     trailColor: b5d4ea
     scaleLife: true
     damage: 12
     splashDamage: 15
     splashDamageRadius: 12
     hitEffect: flakExplosion
+    despawnEffect: none
     speed: 2
     lifetime: 60
     suppressionRange: 12
     suppressionDuration: 6
+    }
+}
+{
+  name: ice-gun-1
+  x: 6
+  y: -8
+  alternate: false
+  mirror: true
+  reload: 60
+  rotate: true
+  rotateSpeed: 4
+  continuous: true
+  bullet: {
+    type: ContinuousFlameBulletType
+    length: 40
+    width: 2  
+    colors: [b5d4ea,b5d4ea,b5d4ea,b5d4ea,ffffff]
+    flareLength: 4
+    lifetime: 10
+    damage: 80
+    lengthInterp: pow10Out
     }
 }
 ]

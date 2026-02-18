@@ -1,0 +1,36 @@
+type: tank
+speed: 1.4
+hitSize: 10
+omniMovement: false
+rotateSpeed: 3
+health: 360
+armor: 1
+faceTarget: false
+outlineColor: 517384
+parts: [
+  {
+  type: RegionPart
+  suffix: -skis
+  layerOffset: -0.001
+    }
+]
+weapons: [
+{
+name: steam-gun-1
+reload: 60
+mirror: false
+x: 0
+y: 0
+rotate: true
+bullet: {
+  type: ShrapnelBulletType
+  length: 45
+  width: 5
+  toColor: ffffee
+  serrations: 2
+  damage: 30
+  pierceCap: 2
+  laserAbsorb: true
+    }
+}
+  ]

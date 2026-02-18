@@ -33,4 +33,30 @@ bullet: {
   laserAbsorb: true
     }
 }
+{
+reload: 10
+alwaysShooting: true
+continuous: true
+alwaysContinuous: true
+y: 6
+x: 2
+shootSound: none
+shootEffect: none
+smokeEffect: none
+rotate: false
+bullet: {
+    type: ContinuousFlameBulletType
+    layer: -11
+	colors: [ffffffff, ffffffff, ffffffff, ffffffff, ffffffff]
+	drawFlare: false
+	lightColor: fbd367
+	collides: false
+	length: 100
+	width: 10
+	lightStroke: 75
+	damage: 0
+	pierce: false
+	pierceArmor: false
+  }
+}
   ]

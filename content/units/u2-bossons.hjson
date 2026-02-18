@@ -66,4 +66,20 @@ weapons: [
   alternate: false
   mirror: true
   reload: 10
-  shootSound:
+  shootSound: shootAvert
+  rotate: true
+  rotateSpeed: 4
+  bullet: {
+    type: BasicBulletType
+    trailLength: 3
+    trailWidth: 1
+    height: 3
+    width: 1
+    frontColor: d4f1f1
+    backColor: b5d4ea
+    trailColor: b5d4ea
+    homingPower: 0.008
+    damage: 5
+    }
+}
+]

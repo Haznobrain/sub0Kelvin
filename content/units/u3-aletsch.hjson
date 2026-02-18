@@ -1,0 +1,131 @@
+type: tank
+flying: false
+hovering: true
+shadowElevation: 0.2 
+drag: 0.06
+accel: 0.08
+speed: 1.8
+outlineColor: 517384
+engineOffset: 10
+useEngineElevation: false
+engineSize: 3
+hitSize: 20
+health: 120
+abilities: [
+  {
+  type: MoveEffectAbility
+  x: 4
+  y: -12
+  color: b5d4ea
+  effect: missileTrailShort
+  interval: 12
+  effectParam: 2
+    }
+  {
+  type: MoveEffectAbility
+  x: -4
+  y: -12
+  color: b5d4ea
+  effect: missileTrailShort
+  interval: 12
+  effectParam: 2
+    }
+]
+parts: [
+  {
+layerOffset: -0.001
+type: HoverPart
+x: 8.5
+y: 0
+color: b5d4ea
+mirror: true
+radius: 6
+phase: 120
+stroke: 0.5
+sides: 4
+circles: 3
+  }
+  {
+type: HoverPart
+layerOffset: -0.001
+x: 8.5
+y: -5
+color: b5d4ea
+mirror: true
+radius: 4
+phase: 120
+stroke: 0.5
+sides: 4
+circles: 3
+  }
+  {
+type: HoverPart
+layerOffset: -0.001
+x: 9
+y: -9
+color: b5d4ea
+mirror: true
+radius: 3
+phase: 120
+stroke: 0.5
+sides: 4
+circles: 3
+  }
+]
+
+weapons: [
+{
+  name: ice-gun-1
+  x: 5
+  y: 8
+  alternate: true
+  mirror: true
+  reload: 10
+  rotate: true
+  rotateSpeed: 4
+  bullet: {
+    type: BasicBulletType
+    trailLength: 3
+    trailWidth: 1
+    height: 3
+    width: 1
+    frontColor: d4f1f1
+    backColor: b5d4ea
+    trailColor: b5d4ea
+    homingPower: 0.012
+    damage: 6
+    speed: 2
+    lifetime: 60
+    }
+}
+  {
+  name: ice-gun-1
+  x: 5
+  y: 0
+  alternate: true
+  mirror: true
+  reload: 180
+  rotate: true
+  rotateSpeed: 4
+  shootSound: 
+  bullet: {
+    type: BasicBulletType
+    trailLength:6
+    trailWidth: 5
+    height: 8
+    width: 10
+    shrinkY: 0.2
+    shrinkX: 0.2
+    frontColor: d4f1f1
+    backColor: b5d4ea
+    trailColor: b5d4ea
+    homingPower: 0.012
+    damage: 12
+    splashDamage: 15
+    splashDamageRadius: 12
+    hitEffect: flakExplosion
+    speed: 2
+    lifetime: 60
+    }
+}
+]

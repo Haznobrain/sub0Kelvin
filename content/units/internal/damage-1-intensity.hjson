@@ -13,8 +13,8 @@ weapons: [
   smokeEffect: none
   mirror: false
   bullet: {
-    type: ExplosionBulletType
-    splashDamageRadius: 99999
+    type: BulletType
+    splashDamageRadius: 9999
     despawnEffect: none
     hitEffect: none
     splashDamage: 2

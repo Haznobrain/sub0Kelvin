@@ -23,6 +23,7 @@ weapons: [
     absorbable: false
     splashDamagePierce: true
     maxDamageFraction: 0.1
+    pierceArmor: true
       }
       }
       ]

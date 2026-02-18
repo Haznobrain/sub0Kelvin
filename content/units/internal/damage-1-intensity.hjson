@@ -18,7 +18,7 @@ weapons: [
     despawnEffect: none
     hitEffect: none
     splashDamage: 2
-    scaledSplashDamage: true
+    scaledSplashDamage: false
     collidesAir: false
     hittable: false
     reflectable: false

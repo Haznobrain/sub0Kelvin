@@ -3,6 +3,8 @@ health: 10
 hittable: false
 targetable: false
 hitSize: 1
+isEnemy: false
+useUnitCap: false
 weapons: [
   {
   alwaysShooting: true

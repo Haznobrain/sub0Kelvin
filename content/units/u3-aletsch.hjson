@@ -107,7 +107,7 @@ weapons: [
   reload: 180
   rotate: true
   rotateSpeed: 4
-  shootSound: 
+  shootSound: shootDiffuse
   bullet: {
     type: BasicBulletType
     trailLength:6
@@ -119,13 +119,15 @@ weapons: [
     frontColor: d4f1f1
     backColor: b5d4ea
     trailColor: b5d4ea
-    homingPower: 0.012
+    scaleLife: true
     damage: 12
     splashDamage: 15
     splashDamageRadius: 12
     hitEffect: flakExplosion
     speed: 2
     lifetime: 60
+    suppressionRange: 12
+    suppressionDuration: 6
     }
 }
 ]

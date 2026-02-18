@@ -14,19 +14,19 @@ abilities: [
   type: MoveEffectAbility
   x: 2
   y: -6
-  color: d3b0ff
+  color: b5d4ea
   effect: missileTrailShort
   interval: 12
-  effectParam: 6
+  effectParam: 1
     }
   {
   type: MoveEffectAbility
   x: -2
   y: -6
-  color: d3b0ff
+  color: b5d4ea
   effect: missileTrailShort
   interval: 12
-  effectParam: 6
+  effectParam: 1
     }
 ]
 parts: [
@@ -35,9 +35,9 @@ layerOffset: -0.001
 type: HoverPart
 x: 6
 y: 4
-color: d3b0ff
+color: b5d4ea
 mirror: true
-radius: 2
+radius: 4
 phase: 120
 stroke: 0.5
 sides: 4
@@ -48,9 +48,9 @@ type: HoverPart
 layerOffset: -0.001
 x: 6
 y: -5.5
-color: d3b0ff
+color: b5d4ea
 mirror: true
-radius: 2
+radius: 4
 phase: 120
 stroke: 0.5
 sides: 4
@@ -80,6 +80,8 @@ weapons: [
     trailColor: b5d4ea
     homingPower: 0.008
     damage: 5
+    speed: 2
+    lifetime: 45
     }
 }
 ]

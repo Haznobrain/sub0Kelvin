@@ -1,0 +1,28 @@
+type: flying
+health: 10
+hittable: false
+targetable: false
+hitSize: 1
+weapons: [
+  {
+  alwaysShooting: true
+  shootSound: none
+  shootEffect: none
+  smokeEffect: none
+  mirror: false
+  bullet: {
+    type: ExplosionBulletType
+    splashDamageRadius: 99999
+    despawnEffect: none
+    hitEffect: none
+    splashDamage: 2
+    scaledSplashDamage: true
+    collidesAir: false
+    hittable: false
+    reflectable: false
+    absorbable: false
+    splashDamagePierce: true
+    maxDamageFraction: 0.1
+      }
+      }
+      ]

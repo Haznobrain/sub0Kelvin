@@ -9,6 +9,7 @@ outlineColor: 517384
 engineOffset: 7
 useEngineElevation: false
 engineSize: 2
+hitSize: 12
 abilities: [
   {
   type: MoveEffectAbility

@@ -6,3 +6,4 @@ requirements: [
     i5-red-beryl/2
     ]
 research: d3-brass-overflow-duct
+type: OverflowDuct

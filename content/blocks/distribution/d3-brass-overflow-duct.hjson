@@ -5,3 +5,4 @@ requirements: [
     i3-copper/2
     ]
 research: d2-brass-router
+type: OverflowDuct

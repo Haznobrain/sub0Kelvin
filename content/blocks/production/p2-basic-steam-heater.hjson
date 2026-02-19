@@ -51,7 +51,7 @@ shootType: {
   smokeEffect: none
   collidesTeam: true
   hittable: false
-  healAmount: 2
+  healAmount: 5
   healSound: none
   healColor: 00000000
   healEffect: none

@@ -17,7 +17,7 @@ weapons: [
     splashDamageRadius: 9999
     despawnEffect: none
     hitEffect: none
-    splashDamage: 2
+    splashDamage: 1
     scaledSplashDamage: false
     collidesAir: false
     hittable: false

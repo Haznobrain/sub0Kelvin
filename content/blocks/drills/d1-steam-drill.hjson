@@ -25,8 +25,7 @@ researchCost: [
 research: {
     parent: "e1-core-pyre"
       }
-drawSpinSprite: false
-drawMineItem: false
+
 drawRim: false
 drawer: {
   type: DrawMulti

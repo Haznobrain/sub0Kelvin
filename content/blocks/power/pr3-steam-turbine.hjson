@@ -39,15 +39,19 @@ alpha: 0.3
 type: DrawRegion
 spinSprite: true
 suffix: -turbine
-rotateSpeed: 2
+rotateSpeed: 10
   }
 {
 type: DrawRegion
   }
 {
-type: DrawCrucibleFlame
-flameColor: ffffffaa
-midColor: ffffffaa
+type: DrawParticles
+color: ffffffaa
+particleRotation: 2
+rotateScl: 5
+particleSizeInterp: linear
+particleRad: 10
+particleLife: 30
   }
 {
 type: DrawRegion

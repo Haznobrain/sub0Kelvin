@@ -48,3 +48,7 @@ researchCost: [
     i2-nickel/200
     i3-copper/300
       ]
+drawer: {
+  type: DrawTurret
+  basePrefix: nickel-
+}

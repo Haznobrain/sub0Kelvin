@@ -1,0 +1,18 @@
+type: BeamNode
+health: 40
+range: 8
+laserColor2: f991b7
+category: power
+requirements: [
+    i2-nickel/1
+    i4-brass/1
+    i5-red-beryl/1
+  ]
+researchCost:[
+    i2-nickel/1
+    i4-brass/1
+    i5-red-beryl/1
+  ]
+research: {
+  parent: e1-core-pyre
+    }

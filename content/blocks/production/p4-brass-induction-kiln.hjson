@@ -1,0 +1,51 @@
+type: GenericCrafter
+outputItem: i4-brass/3
+craftTime: 90
+consumes: {
+  power: 2
+  items: [
+      i2-nickel/1
+      i3-copper/3
+      ]
+}
+size: 2
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+  type: DrawCrucibleFlame
+  flameRadiusScl: 6
+  particleRad: 4
+  rotateScl: 10
+  particles: 20
+    }
+{
+  type: DrawRegion
+    }
+{
+  type: DrawGlowRegion
+  alpha: 0.8
+    }
+]
+}
+category: crafting
+health: 200
+requirements: [
+  i2-nickel/90
+  i3-copper/50
+  i5-red-beryl/20
+  i4-brass/15
+  ]
+researchCost: [
+  i2-nickel/90
+  i3-copper/50
+  i5-red-beryl/20
+  i4-brass/15
+  ]
+research: {
+  parent: p3-brass-kiln
+    }

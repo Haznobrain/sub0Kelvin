@@ -1,0 +1,34 @@
+type: mech
+hitSize: 6
+stepShake: 0
+speed: 1.06666666666666666666666666666666666666666666
+health: 220
+armor: 2
+rotateSpeed: 4
+baseRotateSpeed: 3
+outlineColor: 517384
+flying: false
+faceTarget: true
+weapons: [
+{
+name: electric-gun1
+reload: 90
+shoot: {
+  shots: 5
+  shotDelay: 2
+    }
+inaccuracy: 10
+shootSound: shootBeamPlasmaSmall
+  bullet:{
+  type: LightningBulletType
+  damage: 2
+  lightningLength: 6
+  lifetime: 15
+  lightningType: {
+   lightningLength: 2
+  damage: 1
+     lifetime: 15
+    }
+}
+}
+  ]

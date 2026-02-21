@@ -25,6 +25,7 @@ shootSound: shootBeamPlasmaSmall
   lightningLength: 6
   lifetime: 15
   lightningType: {
+    type: LightningBulletType
    lightningLength: 2
   damage: 1
      lifetime: 15

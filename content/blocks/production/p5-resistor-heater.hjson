@@ -12,15 +12,6 @@ drawer: {
   drawers: [
 {
 type: DrawRegion
-suffix: -bottom
-  }
-    {
-type: DrawLiquidTile
-drawLiquid: l1-steam
-padding: 1
-  }
-{
-type: DrawRegion
   }
 {
   type: DrawGlowRegion

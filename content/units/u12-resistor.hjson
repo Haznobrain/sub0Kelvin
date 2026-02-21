@@ -13,6 +13,8 @@ weapons: [
 {
 name: electric-gun1
 reload: 90
+x: 0
+y: 0
 shoot: {
   shots: 5
   shotDelay: 2

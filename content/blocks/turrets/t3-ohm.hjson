@@ -1,0 +1,72 @@
+type: PowerTurret
+reload: 240
+consumes: {
+  power: 5
+    }
+range: 80
+shootSound: shootArtillerySapBig
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  barrelOffset: 8
+  barrels: 2
+    }
+shootEffect: shootBigColor
+smokeEffect: {
+        type: ParticleEffect
+        line: true
+        lifetime: 10
+        cone: 15
+        particles: 8
+        lenFrom: 5
+        lenTo: 4
+        strokeFrom: 1
+        strokeTo: 0
+        colorTo: ffed85
+          }
+rotateSpeed: 3
+shootY: 7
+shootType: {
+  type: BasicBulletType
+  sprite: missile-large
+  backSprite: missile-large-back
+  height: 6
+  width: 6
+  shrinkX: 0
+  shrinkY: 0
+  damage: 10
+  pierce: true
+  pierceBuilding: true
+  speed: 3
+  lifetime: 33
+  bulletInterval: 11
+  intervalBullets: 10
+  intervalSpread: 180
+  intervalAngle: 90
+  intervalBullet: {
+    type: LightningBulletType
+    lightningLength: 4
+    damage: 5
+    lightningColor: ffed85
+    lifetime: 10
+      }
+  fragBullets: 2
+  fragSpread: 270
+  fragRandomSpread: 0
+  fragAngle: 135
+  fragBullet: {
+    type: ShrapnelBulletType
+    damage: 10
+    length: 16
+    width: 4
+    toColor: ffed85
+    lifetime: 20
+      }
+}
+
+requirements: [
+    i2-nickel/130
+    i3-copper/100
+    i4-brass/120
+  ]
+category: turret

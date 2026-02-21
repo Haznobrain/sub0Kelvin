@@ -32,3 +32,4 @@ research: {
       }
 
 drawRim: false
+conductivePower: true

@@ -71,3 +71,7 @@ requirements: [
     i4-brass/120
   ]
 category: turret
+drawer: {
+type: DrawTurret
+basePrefix: nickel-
+}

@@ -1,0 +1,67 @@
+type: PowerTurret
+consumes: {
+  power: 2.5
+}
+alwaysShooting: true
+size: 2
+hasLiquids: false
+reload: 300
+shootSound: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawLiquidTile
+drawLiquid: l1-steam
+padding: 1
+  }
+{
+type: DrawRegion
+  }
+{
+  type: DrawGlowRegion
+  color: ff0000
+    }
+]
+}
+range: 100
+shootY: 0
+shootType: {
+  type: BulletType
+  lifetime: 0
+  instantDisappear: true
+  speed: 0
+  damage: 0
+  splashDamage: 0
+  splashDamageRadius: 100
+  splashDamagePierce: true
+  hitEffect: none
+  despawnEffect: none
+  shootEffect: none
+  smokeEffect: none
+  collidesTeam: true
+  hittable: false
+  healAmount: 4
+  healSound: none
+  healColor: 00000000
+  healEffect: none
+    }
+
+requirements: [
+    i2-nickel/40
+    i5-red-beryl/10
+    i4-brass/20
+    i3-copper/40
+    ]
+researchCost:[
+    i2-nickel/40
+    i5-red-beryl/10
+    i4-brass/20
+    i3-copper/40
+    ]
+research: p2-basic-steam-heater
+category: crafting

@@ -11,8 +11,8 @@ consumes: {
 }
 powerProduction: 7.5
 size: 2
-filterLiquid: l1-steam
 category: power
+liquidCapacity: 340
 research: {
   parent: e1-core-pyre
   objectives: [

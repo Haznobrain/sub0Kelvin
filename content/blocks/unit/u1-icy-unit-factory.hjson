@@ -1,0 +1,26 @@
+type: UnitFactory
+configurable: false
+size: 3
+category: units
+consumes: {
+  steam: 0.016666666666666666666666666666666666666
+    }
+plans: [
+{
+unit: u2-bossons
+requirements: [
+    i1-cut-ice/10
+    i2-nickel/10
+      ]
+time: 600
+  }
+]
+research: e1-core-pyre
+researchCost: [
+  i1-cut-ice/100
+  i2-nickel/50
+  ]
+requirements: [
+  i1-cut-ice/100
+  i2-nickel/50
+  ]

@@ -14,11 +14,11 @@ size: 2
 category: power
 liquidCapacity: 340
 research: {
-  parent: e1-core-pyre
+  parent: pr1-weak-laser-node
 //  objectives: [
 //{
 //      type: OnSector
-//      preset: s2-carbonic-ice-plateau
+//      preset: carbonic-ice-plateau
 //        }
 //        ]
     }

@@ -57,12 +57,12 @@ shootType: {
   fragOnHit: false
   fragAngle: -45
   fragBullet: {
-    type: ShrapnelBulletType
-    damage: 10
-    length: 16
-    width: 4
-    toColor: ffed85
-    lifetime: 20
+    type: BasicBulletType
+//   damage: 10
+//    length: 16
+ //   width: 4
+   // toColor: ffed85
+    //lifetime: 20
       }
 }
 

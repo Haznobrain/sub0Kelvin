@@ -1,0 +1,26 @@
+type: UnitFactory
+configurable: false
+size: 3
+category: units
+consumes: {
+  steam: 0.1666666666666666666666666
+    }
+plans: [
+{
+unit: u7-civaux
+requirements: [
+    i2-nickel/30
+    i3-copper/30
+      ]
+time: 1200
+  }
+]
+research: u1-icy-unit-factory
+researchCost: [
+    i2-nickel/200
+    i3-copper/100
+      ]
+requirements:[
+    i2-nickel/200
+    i3-copper/100
+      ]

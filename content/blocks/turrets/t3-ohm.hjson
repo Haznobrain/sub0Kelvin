@@ -52,7 +52,7 @@ shootType: {
     lifetime: 10
       }
   fragBullets: 2
-  fragSpread: 270
+  fragSpread: 90
   fragRandomSpread: 0
   fragOnHit: false
   fragAngle: -45

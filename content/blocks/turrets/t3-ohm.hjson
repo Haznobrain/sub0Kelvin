@@ -54,7 +54,8 @@ shootType: {
   fragBullets: 2
   fragSpread: 270
   fragRandomSpread: 0
-  fragAngle: 225
+  fragOnHit: false
+  fragAngle: -45
   fragBullet: {
     type: ShrapnelBulletType
     damage: 10

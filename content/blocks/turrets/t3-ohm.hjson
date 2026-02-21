@@ -3,7 +3,7 @@ reload: 240
 consumes: {
   power: 5
     }
-range: 80
+range: 200
 size: 2
 shootSound: shootArtillerySapBig
 shoot: {
@@ -38,7 +38,7 @@ shootType: {
   damage: 10
   pierce: true
   pierceBuilding: true
-  speed: 3
+  speed: 6
   lifetime: 33
   bulletInterval: 11
   intervalBullets: 10

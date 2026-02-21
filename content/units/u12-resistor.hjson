@@ -15,6 +15,9 @@ name: electric-gun1
 reload: 90
 x: 0
 y: 0
+mirror: false
+shootEffect: sparkShoot
+smokeEffect: none
 shoot: {
   shots: 5
   shotDelay: 2

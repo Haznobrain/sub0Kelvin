@@ -57,13 +57,13 @@ suffix: -top
 }
 
 requirements: [
-    nickel/50
-    copper/50
-    brass/40
+    i2-nickel/50
+    i3-copper/50
+    i4-brass/40
     ]
 
 researchCost: [
-    nickel/50
-    copper/50
-    brass/40
+    i2-nickel/50
+    i3-copper/50
+    i4-brass/40
   ]

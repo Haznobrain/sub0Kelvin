@@ -55,7 +55,7 @@ shootType: {
   fragRandomSpread: 0
   fragOnHit: false
   parentizeEffects: true
-  fragAngle: -225
+  fragAngle: 135
   fragBullet: {
     type: BasicBulletType
 //   damage: 10

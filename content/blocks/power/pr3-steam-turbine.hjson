@@ -52,6 +52,7 @@ rotateScl: 5
 particleSizeInterp: linear
 particleRad: 10
 particleLife: 30
+reverse: true
   }
 {
 type: DrawRegion

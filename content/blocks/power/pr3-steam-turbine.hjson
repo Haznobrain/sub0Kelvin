@@ -1,0 +1,69 @@
+type: ConsumeGenerator
+hasItems: false
+hasLiquids: true
+consumes: {
+  liquid: {
+    liquid: l1-steam
+    amount: 2
+    booster: false
+    optional: false
+      }
+}
+powerProduction: 7.5
+size: 2
+filterLiquid: l1-steam
+category: power
+research: {
+  parent: e1-core-pyre
+  objectives: [
+{
+      type: onSector
+      sector: s2-carbonic-ice-plateau
+        }
+        ]
+    }
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawLiquidTile
+drawLiquid: l1-steam
+alpha: 0.3
+  }
+{
+type: DrawRegion
+spinSprite: true
+suffix: -turbine
+rotateSpeed: 2
+  }
+{
+type: DrawRegion
+  }
+{
+type: DrawCrucibleFlame
+flameColor: ffffffaa
+midColor: ffffffaa
+  }
+{
+type: DrawRegion
+suffix: -top
+  }
+]
+}
+
+requirements: [
+    nickel/50
+    copper/50
+    brass/40
+    ]
+
+researchCost: [
+    nickel/50
+    copper/50
+    brass/40
+  ]

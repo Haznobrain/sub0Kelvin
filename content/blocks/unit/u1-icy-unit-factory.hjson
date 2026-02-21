@@ -3,7 +3,9 @@ configurable: false
 size: 3
 category: units
 consumes: {
-  l1-steam: 0.016666666666666666666666666666666666666
+  liquids: {
+  l1-steam/0.016666666666666666666666666666666666666
+}
     }
 plans: [
 {

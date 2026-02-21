@@ -39,3 +39,7 @@ researchCost: [
     i2-nickel/10
     ]
 research: e1-core-pyre
+drawer: {
+  type: DrawTurret
+  basePrefix: nickel-
+}

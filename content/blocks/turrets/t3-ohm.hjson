@@ -4,6 +4,7 @@ consumes: {
   power: 5
     }
 range: 80
+size: 2
 shootSound: shootArtillerySapBig
 shoot: {
   type: ShootAlternate

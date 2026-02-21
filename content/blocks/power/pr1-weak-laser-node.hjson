@@ -3,6 +3,9 @@ health: 40
 range: 8
 laserColor2: f991b7
 category: power
+consumes: {
+  powerBuffered: 500
+    }
 requirements: [
     i2-nickel/1
     i4-brass/1

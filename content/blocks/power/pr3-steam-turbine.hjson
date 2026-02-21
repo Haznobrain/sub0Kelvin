@@ -15,12 +15,12 @@ category: power
 liquidCapacity: 340
 research: {
   parent: e1-core-pyre
-  objectives: [
-{
-      type: onSector
-      preset: s2-carbonic-ice-plateau
-        }
-        ]
+//  objectives: [
+//{
+//      type: OnSector
+//      preset: s2-carbonic-ice-plateau
+//        }
+//        ]
     }
 
 drawer: {

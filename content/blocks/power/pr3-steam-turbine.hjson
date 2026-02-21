@@ -18,7 +18,7 @@ research: {
   objectives: [
 {
       type: onSector
-      sector: s2-carbonic-ice-plateau
+      preset: s2-carbonic-ice-plateau
         }
         ]
     }

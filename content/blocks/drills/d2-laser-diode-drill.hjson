@@ -1,0 +1,34 @@
+type: Drill
+tier: 4
+drillTime: 150
+size: 3
+liquidBoostIntensity: 1.5
+consumes: {
+  liquid: {
+    liquid: l1-steam
+    amount: 0.166666666666666666666666666666666666666666666666
+    optional: true
+    booster: true
+      }
+  power: 1.5
+}
+requirements: [
+    i1-cut-ice/40
+    i2-nickel/100
+    i4-brass/60
+    i3-copper/20
+    i5-red-beryl/20
+      ]
+category: production
+researchCost: [
+    i1-cut-ice/40
+    i2-nickel/100
+    i4-brass/60
+    i3-copper/20
+    i5-red-beryl/20
+      ]
+research: {
+    parent: "d1-steam-drill"
+      }
+
+drawRim: false

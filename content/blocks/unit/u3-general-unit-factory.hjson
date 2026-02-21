@@ -1,0 +1,45 @@
+type: UnitFactory
+configurable: true
+size: 3
+category: units
+consumes: {
+  power: 4
+    }
+plans: [
+{
+unit: u7-civaux
+requirements: [
+    i2-nickel/25
+    i3-copper/20
+      ]
+time: 900
+  }
+  {
+unit: u2-bossons
+requirements: [
+    i1-cut-ice/8
+    i2-nickel/5
+      ]
+time: 480
+  }
+{
+unit: u12-resistor
+requirements: [
+    i2-nickel/20
+    i4-brass/10
+    i3-copper/20
+      ]
+time: 900
+  }
+]
+research: u2-steam-unit-factory
+researchCost: [
+    i2-nickel/200
+    i3-copper/150
+    i4-brass/50
+      ]
+requirements:[
+    i2-nickel/200
+    i3-copper/150
+    i4-brass/50
+      ]

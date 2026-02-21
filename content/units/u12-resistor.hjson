@@ -24,17 +24,15 @@ shoot: {
     }
 inaccuracy: 10
 shootSound: shootBeamPlasmaSmall
-  bullet:{
-  type: LightningBulletType
-  damage: 2
-  lightningLength: 6
-  lifetime: 15
-  lightningType: {
-    type: LightningBulletType
-   lightningLength: 3
-  damage: 1
-     lifetime: 15
-    }
-}
+  bullet:      {
+      type: LightningBulletType
+      lightningLength: 6
+      lightningLengthRand: 1
+      damage: 2
+        lightningType: {
+      type: LightningBulletType
+      lightningLength: 4
+      damage: 1
+        }
 }
   ]

@@ -42,7 +42,7 @@ shootType: {
   bulletInterval: 11
   intervalBullets: 10
   intervalSpread: 180
-  intervalAngle: 90
+  intervalAngle: 180
   intervalBullet: {
     type: LightningBulletType
     lightningLength: 4

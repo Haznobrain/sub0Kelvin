@@ -1,5 +1,5 @@
 type: PowerTurret
-reload: 240
+reload: 360
 consumes: {
   power: 5
     }

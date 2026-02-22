@@ -57,12 +57,12 @@ shootType: {
   parentizeEffects: true
   fragAngle: 180
   fragBullet: {
-    type: BasicBulletType
-//   damage: 10
-//    length: 16
- //   width: 4
-   // toColor: ffed85
-    //lifetime: 20
+    type: ShrapnelBulletType
+   damage: 10
+    length: 16
+    width: 4
+      toColor: ffed85
+      lifetime: 20
       }
 }
 

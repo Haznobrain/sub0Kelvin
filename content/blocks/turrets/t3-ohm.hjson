@@ -42,7 +42,7 @@ shootType: {
   bulletInterval: 11
   intervalBullets: 10
   intervalSpread: 180
-  intervalAngle: 180
+  intervalAngle: 90
   intervalBullet: {
     type: LightningBulletType
     lightningLength: 4
@@ -55,7 +55,7 @@ shootType: {
   fragRandomSpread: 0
   fragOnHit: false
   parentizeEffects: true
-  fragAngle: 135
+  fragAngle: 180
   fragBullet: {
     type: BasicBulletType
 //   damage: 10

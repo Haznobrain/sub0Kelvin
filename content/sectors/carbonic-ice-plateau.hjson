@@ -1,0 +1,14 @@
+    sector: 3,
+    planet: 1joule
+    research: {
+        parent: acclimatization
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: acclimatization
+            }
+        ]
+    },
+    difficulty: 3,
+    overrideLaunchDefaults: true
+    addStartingItems: true

@@ -18,4 +18,10 @@ researchCost:[
   ]
 research: {
   parent: e1-core-pyre
+  objectives: [
+    { 
+    type: OnSector
+    preset: carbonic-ice-plateau
+    }
+    ]
     }

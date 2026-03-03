@@ -29,7 +29,13 @@ researchCost: [
       ]
 research: {
     parent: "d1-steam-drill"
+    objectives: [
+      {
+      type: OnSector
+      preset: carbonic-ice-plateau
       }
+    ]
+}
 
 drawRim: false
 conductivePower: true

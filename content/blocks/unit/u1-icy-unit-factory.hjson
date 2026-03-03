@@ -17,7 +17,15 @@ requirements: [
 time: 600
   }
 ]
-research: e1-core-pyre
+research: {
+  parent: e1-core-pyre
+  objectives: [
+    {
+    type: OnSector
+    preset: carbonic-ice-plateau
+    }
+    ]
+  }
 researchCost: [
   i1-cut-ice/100
   i2-nickel/50

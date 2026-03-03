@@ -60,3 +60,5 @@ bullet: {
   }
 }
   ]
+research: u2-steam-unit-factory
+researchCostMultiplier: 0

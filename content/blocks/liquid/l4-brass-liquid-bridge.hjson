@@ -1,6 +1,6 @@
 type: LiquidBridge
 liquidCapacity:  20
-range: 3
+range: 4
 health: 80
 requirements: [
     i4-brass/10

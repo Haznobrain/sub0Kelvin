@@ -54,5 +54,13 @@ researchCost:[
     i4-brass/20
     i3-copper/40
     ]
-research: p2-basic-steam-heater
+research: {
+  parent: p2-basic-steam-heater
+  objectives: [
+    {
+    type: OnSector
+    preset: carbonic-ice-plateau
+    }
+  ]
+}
 category: crafting

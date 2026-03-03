@@ -37,3 +37,5 @@ shootSound: shootBeamPlasmaSmall
 }
 }
   ]
+research: u3-general-unit-factory
+researchCostMultiplier: 0.05

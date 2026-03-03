@@ -87,3 +87,5 @@ weapons: [
     }
 }
 ]
+research: u1-icy-unit-factory
+researchCostMultiplier: 0

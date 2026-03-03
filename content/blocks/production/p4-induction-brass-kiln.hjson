@@ -48,4 +48,10 @@ researchCost: [
   ]
 research: {
   parent: p3-brass-kiln
+  objectives: [
+  {
+  type: OnSector
+  preset: carbonic-ice-plateau
+  }
+  ]
     }

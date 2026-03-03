@@ -76,3 +76,13 @@ drawer: {
 type: DrawTurret
 basePrefix: nickel-
 }
+
+research: {
+  parent: t1-crystal
+  objectives: [
+  {
+  type: OnSector
+  preset: carbonic-ice-plateau
+  }
+  ]
+}

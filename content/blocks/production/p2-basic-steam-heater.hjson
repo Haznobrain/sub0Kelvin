@@ -32,6 +32,11 @@ type: DrawRegion
   type: DrawGlowRegion
   color: ff0000
     }
+{
+  type: DrawGlowRegion
+  suffix: -glow-over
+  color: ff0000
+    }
 ]
 }
 range: 40

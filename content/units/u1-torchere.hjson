@@ -1,12 +1,12 @@
 type: flying
 flying: true
-speed: 3
+speed: 4
 buildSpeed: 2
 hitSize: 24
 mineWalls: false
 engineOffset: 12
 envDisabled: 0
-mineSpeed: 5
+mineSpeed: 6
 mineTier: 4
 engineSize: 3
 buildBeamOffset: 20

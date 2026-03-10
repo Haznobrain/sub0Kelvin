@@ -17,6 +17,11 @@ type: DrawRegion
   type: DrawGlowRegion
   color: ff0000
     }
+{
+  type: DrawGlowRegion
+  suffix: -glow-overlay
+  color: ff0000
+    }
 ]
 }
 range: 100

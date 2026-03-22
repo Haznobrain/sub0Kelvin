@@ -1,6 +1,6 @@
 type: PowerTurret
 consumes: {
-  power: 2.5
+  power: 1.5
 }
 alwaysShooting: true
 size: 2

@@ -3,7 +3,7 @@ liquidCapacity:  20
 range: 4
 health: 80
 requirements: [
-    i4-brass/10
+    i4-brass/6
       ]
 researchCost: [
     i4-brass/100
